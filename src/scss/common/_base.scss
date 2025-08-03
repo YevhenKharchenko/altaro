@@ -43,7 +43,7 @@ html {
 }
 
 .section {
-  scroll-margin-top: 70px;
+  scroll-margin-top: 80px;
 
   @include media(desktop) {
     scroll-margin-top: 140px;
@@ -70,10 +70,14 @@ html {
   font-size: 14px;
   text-align: center;
   color: #fff;
+  max-width: 271px;
+  margin-left: auto;
+  margin-right: auto;
   margin-bottom: 30px;
 
   @include media(desktop) {
     font-size: 24px;
+    max-width: max-content;
     margin-bottom: 50px;
   }
 }

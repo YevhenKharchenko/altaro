@@ -1,0 +1,33 @@
+.cta-section {
+  padding-bottom: 63px;
+
+  @include media(desktop) {
+    padding-bottom: 121px;
+  }
+}
+
+.cta-container {
+}
+
+.cta-link {
+  background: #3fbfba;
+  border-radius: 30px;
+  padding: 4px 24px;
+  font-family: 'DM Sans', sans-serif;
+  font-weight: 400;
+  font-size: 14px;
+  text-transform: capitalize;
+  text-align: center;
+  color: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  max-width: max-content;
+  margin-left: auto;
+  margin-right: auto;
+
+  @include media(desktop) {
+    padding: 13px 47px;
+    font-size: 24px;
+  }
+}

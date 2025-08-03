@@ -1,0 +1,96 @@
+.privacy-body {
+  background: #151515;
+}
+
+.policy-section {
+  padding-top: 76px;
+  padding-bottom: 32px;
+
+  @include media(desktop) {
+    padding-top: 122px;
+    padding-bottom: 90px;
+  }
+}
+
+.policy-main-title {
+  font-family: 'Space Grotesk', sans-serif;
+  font-weight: 700;
+  font-size: 24px;
+  text-align: center;
+  color: #fff;
+  margin-bottom: 20px;
+
+  @include media(desktop) {
+    font-size: 44px;
+    margin-bottom: 30px;
+  }
+}
+
+.policy-title {
+  font-family: 'DM Sans', sans-serif;
+  font-weight: 900;
+  font-size: 14px;
+  color: #fff;
+  margin-bottom: 18px;
+
+  @include media(desktop) {
+    font-size: 24px;
+  }
+}
+
+.policy-subtitle {
+  font-family: 'DM Sans', sans-serif;
+  font-weight: 700;
+  font-size: 14px;
+  color: #fff;
+  margin-bottom: 18px;
+
+  @include media(desktop) {
+    font-size: 24px;
+  }
+}
+
+.policy-text {
+  font-family: 'DM Sans', sans-serif;
+  font-weight: 400;
+  font-size: 14px;
+  color: #fff;
+
+  &:not(:last-child) {
+    margin-bottom: 18px;
+  }
+
+  @include media(desktop) {
+    font-size: 24px;
+  }
+}
+
+.policy-list {
+  list-style-type: disc;
+  padding-left: 20px;
+}
+
+.policy-item {
+  font-family: 'DM Sans', sans-serif;
+  font-weight: 400;
+  font-size: 14px;
+  color: #fff;
+  margin-bottom: 8px;
+
+  &:last-child {
+    margin-bottom: 18px;
+  }
+
+  @include media(desktop) {
+    font-size: 24px;
+  }
+}
+
+.policy-span {
+  text-decoration: underline;
+}
+
+.policy-link {
+  text-decoration: underline;
+  word-wrap: break-word;
+}

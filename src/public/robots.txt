@@ -3,4 +3,4 @@ Disallow: /admin/
 Disallow: /private/
 Allow: /
 
-Sitemap: https://nexaero.pro/sitemap.xml
+Sitemap: https://altaro.site/sitemap.xml

@@ -1,0 +1,72 @@
+.contact-section {
+  padding-bottom: 63px;
+
+  @include media(desktop) {
+    padding-bottom: 120px;
+  }
+}
+
+.contact-container {
+}
+
+.contact-email-text {
+  font-family: 'DM Sans', sans-serif;
+  font-weight: 700;
+  font-size: 14px;
+  color: #fff;
+  text-align: center;
+  margin-bottom: 10px;
+
+  @include media(desktop) {
+    font-size: 24px;
+    margin-bottom: 30px;
+  }
+}
+
+.contact-email-wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  gap: 10px;
+  max-width: max-content;
+  margin-left: auto;
+  margin-right: auto;
+
+  @include media(desktop) {
+    gap: 20px;
+  }
+}
+
+.contact-email-link {
+  font-family: 'DM Sans', sans-serif;
+  font-weight: 400;
+  font-size: 14px;
+  text-transform: capitalize;
+  color: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  @include media(desktop) {
+    font-size: 24px;
+  }
+}
+
+.contact-text {
+  font-family: 'DM Sans', sans-serif;
+  font-style: italic;
+  font-weight: 300;
+  font-size: 14px;
+  color: #fff;
+  text-align: center;
+  margin-top: 20px;
+  max-width: 271px;
+  margin-left: auto;
+  margin-right: auto;
+
+  @include media(desktop) {
+    font-size: 24px;
+    max-width: max-content;
+    margin-top: 30px;
+  }
+}
