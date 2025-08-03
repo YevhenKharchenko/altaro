@@ -1,5 +1,5 @@
 .header {
-  padding: 0;
+  padding: 14px 0;
   position: fixed;
   width: 100%;
   top: 0;
@@ -10,16 +10,16 @@
   background-size: auto;
 
   @include media(desktop) {
-    padding-top: 10px;
+    padding: 12px 0;
     background-image: url(../img/hero/hero-bg-desk.png);
   }
 }
 
 .header-container {
-  padding: 0 14px;
+  padding: 0 32px;
 
   @include media(desktop) {
-    padding: 0 55px;
+    padding: 0 58px;
   }
 }
 
@@ -32,48 +32,22 @@
   }
 }
 
-.header-contact-link {
-  display: flex;
-  align-items: center;
-  gap: 10px;
-  font-family: 'Space Grotesk', sans-serif;
-  font-weight: 400;
-  font-size: 14px;
-  color: #fff;
-  min-width: 103px;
-
-  @include media(desktop) {
-    gap: 16px;
-    font-size: 24px;
-    min-width: 176px;
-  }
-}
-
-.header-span {
-  min-width: 6px;
-  height: 6px;
-  border-radius: 100%;
-  background-color: #fff;
-}
-
 .header-logo-link {
+}
+
+.menu-icon {
+  @include media(desktop) {
+    width: 48px;
+    height: 48px;
+  }
 }
 
 .nav-btn {
   display: flex;
-  justify-content: end;
+  justify-content: center;
   align-items: center;
-  gap: 10px;
-  font-family: 'Space Grotesk', sans-serif;
-  font-weight: 400;
-  font-size: 14px;
-  color: #fff;
-  min-width: 103px;
 
   @include media(desktop) {
-    gap: 16px;
-    font-size: 24px;
-    min-width: 176px;
   }
 }
 
